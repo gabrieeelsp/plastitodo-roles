@@ -1,0 +1,54 @@
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #343a40;
+    color: #fff;
+}
+
+[class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-link.active {
+    
+    box-shadow: none;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-title {
+    color: #fff;
+    background: #4b5366;
+    padding: 16px 25px;
+}
+
+.card-table {
+    color: #566787;   
+}
+.card-header .card-title {
+    font-size:x-large;
+}
+
+.pagination {
+    color: #566787; 
+}
+.pagination a{
+    color: #566787; 
+}
+.pagination li.active a, .pagination li.active a.page-link {
+    background: #03A9F4;
+    border-color: #337ab7;
+}
+
+.pagination-nav select.form-control {
+    width: 70px;
+    margin: 0 5px;
+}
+
+.content-header {
+    padding: 5px .5rem;
+}
+
+.card-thumbnail{
+    width: 220px;
+}
+.img-thumbnail {
+    height:200px;
+}
